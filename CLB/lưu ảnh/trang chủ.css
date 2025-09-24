@@ -1,0 +1,231 @@
+*{margin: 0; padding: 0; box-sizing: ;border-box: ;}
+
+.hea{
+    position: relative;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.hea img {
+    width: 1500px;
+    height: 100px;
+
+    
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: -4px;
+    background-color: rgb(173, 211, 255);
+    height: 53px;
+    }
+    
+.ulmenu li
+    {
+        padding: 0px 15px 0px 10px;
+        position: relative;
+        left: 60px ;
+        z-index: 100;
+        top: 10px;
+    }
+ .ulmenu li a{
+        text-decoration: none;
+        color:  black;
+        display: flex;
+        padding: 10px 30px; 
+        position: relative;
+        font-size: 20px;  
+       margin-right: 79px ;
+       font-weight: bold; 
+    }
+    /*  cách tạo viền màu đỏ ở chân trong a , vd màu đỏ ở chân trang chủ , danh mục , ... gồm 1 và 2 */
+    .ulmenu li a::before{
+        content: "";
+        height: 4px ;
+        width: 0;
+        background: blueviolet;                                
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    } /* 1 */
+    
+    .ulmenu li:hover a::before{
+        width: 100%;
+    } /* 2 ( độ rọng khi di chuột đến trang chủ và cx là hiển thị đó vì có hover*/
+    
+    
+    .ulmenu li ul{
+        position: absolute;
+        background-color: rgb(173, 211, 255) ;
+        list-style-type: none;
+        width: 300px;
+        text-align: left;
+        display: none;
+    }
+    .ulmenu li ul li{
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+        position: relative;
+        left: 0px;
+    }
+    .ulmenu li ul li a{
+      position: static;
+        font-size: 19px;
+      
+        
+    }
+    .ulmenu li:hover ul{
+        display: block;
+    }
+    .ulmenu li ul li:hover{
+        background-color:rgb(95, 160, 160)
+    }
+    
+    /* ảnh img ở giữa */
+    .anh {
+       width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+    .anh img{
+        width: 1300px;
+       position: relative;
+       left: -20px;
+      
+      
+    }
+    /* chữ các clb  */
+    .CLB {  
+        width: 100%;
+        display: grid;
+       
+   
+    }
+    .CLB a {
+       
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        color: brown ;
+        font-weight: bold;
+        place-self: center
+        ;
+       
+    }
+    .CLB a:hover {
+        color: pink ;
+    }
+
+    .FOOT {
+        width: 100%;
+        display: grid;
+        position: relative;
+        top: -380px;
+        background-image: url(hinh-nen-bau-troi-mau-xanh\ copy.jpg);
+        height: 400px ;
+        background-repeat: no-repeat;   
+        background-size: 100%;
+       
+    }
+
+    /* chỉnh footer */
+
+    .FOOT h1 {
+        place-self: center;
+        position: relative;
+        left: -480px;
+        top: 30px;
+        font-size: 28px;
+    }
+
+    .FOOT h2 {
+        margin-top: 30px;
+        place-self: center;
+        position: relative;
+        left: -448px;
+        top: 30px;
+    }
+
+    
+    .FOOT a {
+        margin-top: 40px;
+        place-self: center;
+        font-size: 24px;
+        text-decoration: none;
+        position: relative;
+        left: -559px;
+        font-weight: bold;
+        color: rgb(222, 135, 135);
+        top: 30px;
+    }
+
+    .FOOT p {
+        place-self: center;
+        position: relative;
+        top: -262px;
+        font-size: 28px;
+        font-weight: bold;
+        left: 50px;
+    }
+
+    .FOOT h3 {
+        place-self: center;
+        position: relative;
+        top: -230px;
+        font-size: 24px;
+        left: 60px;
+        
+    }
+    .FOOT h4  {
+        place-self: center;
+        position: relative;
+        top: -480px;
+        font-size: 28px;
+        left: 520px;
+    }
+    .FOOT span {
+           place-self: center;
+           position: relative;
+           top: -190px;
+    }
+    .FOOT span a {
+     
+        text-decoration: none;
+        position: relative;
+        top: -252px;
+        font-size: 24px;
+        left: 520px;
+        font-weight: bold;
+        color: rgb(222, 135, 135);
+    }
+    .FOOT h5 {
+         place-self: center;
+         position: relative;
+         top: -290px;
+    }
+    .FOOT h5 a {
+       
+        text-decoration: none;
+        position: relative;
+        top: -90px;
+        font-size: 24px;
+        left: 520px;
+        color: rgb(222, 135, 135);
+    }
+
+    .FOOT a:hover {
+        color: rgb(226, 43, 43);
+    }
+
+    .FOOT span a:hover {
+        color: rgb(226, 43, 43);
+    }
+
+    .FOOT h5 a:hover {
+        color: rgb(226, 43, 43);
+    }

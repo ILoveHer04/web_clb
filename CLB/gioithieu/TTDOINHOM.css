@@ -1,0 +1,176 @@
+*{margin: 0; padding: 0; box-sizing: ;border-box: ;}
+
+#SP{
+    padding: 50px 134px 78px 134px;
+
+}
+
+#SP h2  {
+    text-align: center;
+    margin-bottom: 76px;
+    font-size: 36px;
+    color:rgb(8, 0, 255);
+    text-shadow: 10px 30px 8px black;
+}
+#Danhsach {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Danhsach .VP{
+        width: 450px;
+        height: 550px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        border: 2px solid #ccc;
+
+        padding: 10px; /* Thêm padding để tăng kích thước mục */
+       
+        font-weight: bold; /* In đậm chữ khi không hover */
+        transition: background-color 0.3s, box-shadow 0.3s, padding 0.3s, font-weight 0.3s; /* Áp dụng transition cho các thuộc tính thay đổi */
+    
+}
+
+#Danhsach .VP img {
+    width: 100px;
+    position: relative;
+    left: 160px;
+    top: 15px;
+}
+
+#Danhsach .VP span{ 
+    font-size: 25px;
+    position: relative;
+    left: -10px;
+    top: 45px;
+    color: brown;
+    
+
+}
+
+#Danhsach .VP p{ 
+    font-size: 18px;
+    position: relative;
+    top: 55px;
+    font-family: 'Arial', Helvetica, Arial, Lucida, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+   color: #362f2f;
+
+}
+
+#Danhsach a {
+    text-decoration: none;
+    
+}
+
+#Danhsach .VP:hover {
+    background-color: rgb(238, 182, 130);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Thêm hiệu ứng bóng đổ */
+    padding: 15px; /* Tăng padding khi hover */
+    font-weight: normal; /* Giảm độ đậm của chữ khi hover */
+}
+
+
+.page{
+    width: 50%;
+    margin: 0px auto ;                      /* phần số chuyển trang 1 ,2 ,3 ,4 5, .. */
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .SO{
+    margin: 0px 6px ;
+    width: 35px;
+    height: 40px;
+    background: #362f2f ;                   /* phần số khoảng cách và căn các số , chỉnh sửa khung */
+    border-radius: 50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .SO a {
+    color: #fff;
+    text-decoration: none;                          /* phần số chỉnh sửa a bên trong */
+    padding: 10px;
+}
+
+.page .SO:hover {
+    background-color: aquamarine;               /* chạm vào số */
+}
+
+
+#sales{
+    width: 100%;
+    display: flex;                      /* banner dưới */
+    height: 310px;
+}
+#sales .bo-left , #sales .bo-right{
+    width: 50%;                                 /* căn thành 2 phần */
+}
+
+#sales .bo-left{
+    background:dimgrey;
+    text-align: center;                         /* phần bên trái banner dưới */
+    min-height: 310px;
+}
+
+#sales .bo-left h1 {
+    padding-top: 50px;                          /* cụm chữ h1 bên trái */
+
+}
+#sales .bo-left span:nth-child(1)
+{
+   
+    color:wheat;
+    font-size: 50px
+
+}
+
+#sales .bo-left span:nth-child(2)
+{
+    color: wheat;
+    font-size: 128px
+
+}
+
+#sales .bo-right{
+    background-image: url("images.png");
+    background-repeat: no-repeat;                           /* chữ bên phải */
+    background-size: 100%;
+}
+
+
+/* phần thanh toán */
+
+.TToan{
+    display: flex;
+    justify-content: center;                        
+    align-items: center;
+    margin-top: 40px;
+    color:aqua;
+}
+.pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    position: relative;
+    top: -100px;
+}
+
+.pay .paid{
+    height: 100px;
+    margin: 10px 20px;
+}
+
+.pay .paid img {
+    width: 440px;
+}

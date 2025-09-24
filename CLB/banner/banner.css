@@ -1,0 +1,90 @@
+.ig-slide {
+    margin: 0;
+    width: 100%;                   /* bố cục to của banner */
+    position: relative;
+    top: 100px;
+}
+
+.slider {
+    width: 1200px;
+    border-radius: 5px;
+
+    max-width: 80vw;                             /* phần slide lớn */                   
+    height: 400px;
+
+    margin: auto;
+    position: relative;
+    overflow: hidden;                           /* ẩn các ảnh sau */
+}
+
+.list-slide {
+    position: absolute;                                                            
+
+    top: 0;
+    left: 0;                                      /* diều chỉnh chung các ảnh , như ul */                      
+    height: 100%;
+    width: max-content;
+
+    display: flex;
+    transition: 1s;
+}
+
+.list-slide img {
+    width: 1200px;                              /* hiệu ứng cho ảnh */
+    max-width: 100vw;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.slide-btn {
+    top: 50%;
+    left: 2%;
+    width: 96%;                                     /* nút ấn cho ảnh */
+
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-btn button {
+    width: 35px;
+    height: 35px;
+
+    border: none;                                                /* nút ấn cho ảnh */              
+    border-radius: 50%;                                             
+    background-color: rgba(255, 255, 255, 0.329);
+
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.slide-dots {
+    bottom: 8px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;                                              /* các dấu chấm ở bottom ảnh */
+
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-dots li {
+    border-radius: 10px;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.637);
+
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+
+    transition: 1s;
+}
+
+.slide-dots li.active {                         
+    width: 30px;                                                  /* khi đang ở slide đấy thì phần dấu chấm to ra */
+}

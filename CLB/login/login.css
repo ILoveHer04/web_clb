@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+
+.login-form {
+    width: 100%;
+    height: 100vh;
+    background-image: url(tai-hinh-nen-dep-nhat-the-gioi-57.jpg) ;
+    background-size: cover;
+    background-position: 55%;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 1); /* Set alpha value to 1 for non-transparent background */
+    backdrop-filter: blur(15px);
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #000000;
+}
+
+.login .inputbox input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 1.25em;
+    color: #ff441d;
+    border-radius: 5px;
+    border-color: #000000;
+    margin-bottom: 30px;
+}
+
+.login .inputbox input::placeholder {
+    color: #000000;
+    font-size: 17px;
+}
+
+#btn {
+    position: relative;
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(135deg, #ff461d, #fe7804);
+    font-size: 1.25em;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-content a {
+    font-size: 1.25em;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+}

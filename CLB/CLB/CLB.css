@@ -1,0 +1,139 @@
+*{margin: 0; padding: 0; box-sizing: ;border-box: ;}
+
+.TD {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    height: 100%;
+    background: url('/admin/ANIMANGASCENERY.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.TD h1 {
+   margin-top: 30px;
+   font-family: serif;
+   color: rgb(0, 51, 255);
+  
+   
+}
+
+.Lich {
+    width: 100%; 
+    display: grid ;
+    margin-top: 60px;
+   
+}
+
+.Lich h1 {
+    place-self: center;
+    font-size: 28px;
+    position: relative;
+    left: 15px;
+     margin-bottom: 80px;
+} 
+
+.Lich h1 a {
+    text-decoration: none;
+   color: brown;
+} 
+
+.Lich h1 hr {
+    place-self: center;
+    width: 1320px;
+    position: relative;
+    left: -20px;
+    top: 20px;
+   
+}
+
+
+.Lich h2 {
+    place-self: center;
+    font-size: 28px;
+    position: relative;
+    left: 14px;
+    margin-bottom: 80px;
+} 
+
+
+.Lich h2 a {
+    text-decoration: none;
+    color: brown;
+} 
+
+.Lich h2 hr {
+    place-self: center;
+    width: 1320px;
+    position: relative;
+    left: -20px;
+    top: 20px;
+   
+}
+
+
+.Lich h3 {
+    place-self: center;
+    font-size: 28px;
+    position: relative;
+    left: 15px;
+} 
+
+
+.Lich h3 a {
+    text-decoration: none;
+    color: brown;
+} 
+
+.Lich h3 hr {
+    place-self: center;
+    width: 1320px;
+    position: relative;
+    left: -20px;
+    top: 20px;
+   
+}
+
+.Lich h4{
+    place-self: center;
+    font-size: 28px;
+    position: relative;
+    left: 15px;
+    top: 60px;
+}
+
+.Lich h4 a {
+    text-decoration: none;
+    color: brown;
+} 
+
+.Lich h4 hr {
+    place-self: center;
+    width: 1320px;
+    position: relative;
+    left: -20px;
+    top: 20px;
+   
+}
+
+
+.Lich h1 a:hover {
+    color: aqua;
+}
+
+
+.Lich h2 a:hover {
+    color: aqua;
+}
+
+
+.Lich h3 a:hover {
+    color: aqua;
+}
+
+.Lich h4 a:hover {
+    color: aqua;
+}

@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0; box-sizing: ;border-box: ;}
+
+
+.menu{
+    display: flex;
+    list-style-type: none;
+     height: 80px;
+    margin-top: -4px;
+    background-color: pink;
+    }
+    
+.ulmenu li
+    {   margin-top: 20px;
+        padding: 0px 15px 0px 10px;
+        position: relative;
+        left: 200px ;
+        
+   
+    }
+ .ulmenu li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        display: flex;
+        padding: 10px 30px;
+        position: relative;
+        font-size: 22px;  
+       margin-right: 270px ;
+    }
+    /*  cách tạo viền màu đỏ ở chân trong a , vd màu đỏ ở chân trang chủ , danh mục , ... gồm 1 và 2 */
+    .ulmenu li a::before{
+        content: "";
+        height: 4px ;
+        width: 0;
+        background: white;                                
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    } /* 1 */
+    
+    .ulmenu li:hover a::before{
+        width: 100%;
+    } /* 2 ( độ rọng khi di chuột đến trang chủ và cx là hiển thị đó vì có hover*/
+    
+    
+    
